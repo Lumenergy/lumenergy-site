@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumenergy LLC — Consulting for Nonprofits & Clean Energy</title>
+  <meta name="description" content="Lumenergy LLC provides policy, strategy, and research support for nonprofits and mission-driven organizations in clean energy and climate." />
+  <!-- Tailwind via CDN (fast, fine for a simple static page) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --ink:#0f172a; --muted:#475569; --brand:#0ea5e9; --bg:#fafafa; }
+    html { scroll-behavior:smooth; }
+    .container { max-width: 1000px; }
+    .glass { background:rgba(255,255,255,.8); backdrop-filter:saturate(180%) blur(6px); }
+  </style>
+</head>
+<body class="bg-[var(--bg)] text-[var(--ink)]">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 glass border-b border-slate-200/70">
+    <div class="mx-auto container px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-semibold text-lg tracking-tight">Lumenergy LLC</a>
+      <nav class="hidden md:flex gap-6 text-sm text-[var(--muted)]">
+        <a href="#services" class="hover:text-[var(--ink)]">Services</a>
+        <a href="#about" class="hover:text-[var(--ink)]">About</a>
+        <a href="#work" class="hover:text-[var(--ink)]">Focus Areas</a>
+        <a href="#contact" class="hover:text-[var(--ink)]">Contact</a>
+      </nav>
+      <a href="#contact" class="inline-flex items-center rounded-xl px-3 py-2 text-sm font-medium bg-[var(--brand)] text-white shadow hover:opacity-95">Get in touch</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative">
+    <div class="mx-auto container px-4 py-20 grid md:grid-cols-12 gap-8 items-center">
+      <div class="md:col-span-7">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">Strategy & research for mission‑driven energy work.</h1>
+        <p class="mt-4 text-lg text-[var(--muted)] max-w-prose">Independent support for nonprofits and public‑interest organizations: policy analysis, grant support, and stakeholder strategy across California’s clean‑energy landscape.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#contact" class="inline-flex items-center rounded-2xl px-4 py-2.5 bg-[var(--brand)] text-white font-medium shadow">Book a chat</a>
+          <a href="#services" class="inline-flex items-center rounded-2xl px-4 py-2.5 border border-slate-300 font-medium">See services</a>
+        </div>
+        <ul class="mt-8 grid grid-cols-2 gap-4 text-sm text-[var(--muted)]">
+          <li class="flex gap-2 items-start"><span>⚡</span><span>Resource planning & regulatory tracking (CPUC, CAISO, CEC)</span></li>
+          <li class="flex gap-2 items-start"><span>🧭</span><span>Strategy memos & board‑ready briefs</span></li>
+          <li class="flex gap-2 items-start"><span>📊</span><span>Data synthesis & slide support</span></li>
+          <li class="flex gap-2 items-start"><span>📝</span><span>Grant writing & reporting</span></li>
+        </ul>
+      </div>
+      <div class="md:col-span-5 md:pl-6">
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white shadow-sm">
+          <p class="text-sm font-semibold tracking-wide text-slate-500">At a glance</p>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li class="flex justify-between"><span>Based in</span><span class="font-medium">Sacramento, CA</span></li>
+            <li class="flex justify-between"><span>Clients</span><span class="font-medium">Nonprofits & NGOs</span></li>
+            <li class="flex justify-between"><span>Focus</span><span class="font-medium">Clean energy policy</span></li>
+          </ul>
+          <div class="mt-4 text-xs text-slate-500">*This is a simple starter site—edit the copy and publish in minutes.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-white border-y border-slate-200">
+    <div class="mx-auto container px-4 py-16">
+      <h2 class="text-2xl font-bold">Services</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-slate-200 p-6">
+          <h3 class="font-semibold">Policy & Regulatory Support</h3>
+          <p class="mt-2 text-sm text-[var(--muted)]">Comment drafting, proceeding tracking, and concise briefs for time‑pressed teams.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6">
+          <h3 class="font-semibold">Strategy & Research</h3>
+          <p class="mt-2 text-sm text-[var(--muted)]">Objective analysis, options matrices, and recommendations aligned with mission and budget.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6">
+          <h3 class="font-semibold">Grants & Deliverables</h3>
+          <p class="mt-2 text-sm text-[var(--muted)]">Grant writing, scopes of work, timelines, and reporting support to keep funders happy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Focus Areas -->
+  <section id="work" class="">
+    <div class="mx-auto container px-4 py-16">
+      <h2 class="text-2xl font-bold">Focus areas</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6 text-sm text-[var(--muted)]">
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <h3 class="font-semibold text-[var(--ink)]">Transmission & RA</h3>
+          <p class="mt-2">CAISO transmission planning, RA/Slice of Day implications, and grid‑enhancing technologies.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <h3 class="font-semibold text-[var(--ink)]">Clean firm & storage</h3>
+          <p class="mt-2">CSP+TES, BESS, LDES, and portfolio roles for SB 100 pathways.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <h3 class="font-semibold text-[var(--ink)]">Community & equity</h3>
+          <p class="mt-2">Convenings, permitting, and pragmatic pathways for local benefits and participation.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <h3 class="font-semibold text-[var(--ink)]">Grant strategy</h3>
+          <p class="mt-2">Targeting, narratives, and measurement plans that align with funder aims.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-white border-y border-slate-200">
+    <div class="mx-auto container px-4 py-16">
+      <h2 class="text-2xl font-bold">About</h2>
+      <p class="mt-4 max-w-prose text-[var(--muted)]">Lumenergy LLC is a single‑member consultancy providing flexible, on‑demand support to nonprofits and public‑interest organizations working on energy and climate in California. Work is scoped to your team’s capacity—hourly, project‑based, or retainer.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="">
+    <div class="mx-auto container px-4 py-16">
+      <h2 class="text-2xl font-bold">Contact</h2>
+      <p class="mt-2 text-[var(--muted)]">Email is best. You can also book a short intro call.</p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <a href="mailto:hello@yourdomain.org" class="inline-flex items-center justify-center rounded-2xl px-5 py-3 bg-[var(--brand)] text-white font-medium shadow">Email</a>
+        <a href="https://calendly.com/your-handle/intro" class="inline-flex items-center justify-center rounded-2xl px-5 py-3 border border-slate-300 font-medium">Book a call</a>
+      </div>
+      <p class="mt-6 text-xs text-slate-500">Swap in your real email and Calendly links. If you don’t have a domain email yet, use a mailto: link to your current address.</p>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="mx-auto container px-4 py-8 text-sm text:[var(--muted)] flex flex-col md:flex-row gap-2 md:gap-6 md:items-center md:justify-between">
+      <span>© <span id="year"></span> Lumenergy LLC. All rights reserved.</span>
+      <span class="text-xs">Built fast with a single static file. Host on GitHub Pages, Cloudflare Pages, or Netlify for free.</span>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
