@@ -11,7 +11,7 @@
     :root { --ink:#0f172a; --muted:#475569; --brand:#0ea5e9; --bg:#fafafa; }
     html { scroll-behavior:smooth; }
     .container { max-width: 1000px; }
-    .glass { background:rgba(255,241,166,.8); backdrop-filter:saturate(180%) blur(6px); }
+    .glass { background:rgba(255,250,210,1); backdrop-filter:saturate(180%) blur(6px); }
     body {
       margin: 0;
       font-family: Calibri, sans-serif;
@@ -21,7 +21,10 @@
 }
     h1.text-4xl {
       color: #fff1a6;
-    }
+      }
+    .over-bg {
+    color: #fffad2; /* pale yellow */
+      }
   </style>
 </head>
 <body class="bg-[var(--bg)] text-[var(--ink)]">
@@ -44,7 +47,7 @@
     <div class="mx-auto container px-4 py-20 grid md:grid-cols-12 gap-8 items-center">
       <div class="md:col-span-7">
         <h1 class="text-4xl md:text-5xl font-bold leading-tight">Illuminate your energy advocacy.</h1>
-        <p class="mt-4 text-lg text-[var(--muted)] max-w-prose">Founded in 2025, Lumenergy LLC offers independent support for nonprofits and public‑interest organizations focused on climate and energy policy and advocacy in California.</p>
+        <p class="mt-4 text-lg text-[var(--muted)] max-w-prose">Founded in 2025, Lumenergy LLC offers independent support for nonprofits and non-governmental organizations focused on climate and energy policy and advocacy in California.</p>
         <div class="mt-6 flex gap-3">
           <a href="#contact" class="inline-flex items-center rounded-2xl px-4 py-2.5 bg-[var(--brand)] text-white font-medium shadow">Connect</a>
           <a href="#services" class="inline-flex items-center rounded-2xl px-4 py-2.5 border border-slate-300 font-medium">Services</a>
@@ -78,7 +81,7 @@
   <!-- Focus Areas -->
   <section id="work" class="">
     <div class="mx-auto container px-4 py-16">
-      <h2 class="text-2xl font-bold">Focus areas</h2>
+      <h2 class="text-2xl font-bold over-bg">Focus Areas</h2>
       <div class="mt-6 grid md:grid-cols-2 gap-6 text-sm text-[var(--muted)]">
         <div class="rounded-2xl border border-slate-200 p-6 bg-white">
           <h3 class="font-semibold text-[var(--ink)]">Transmission & RA</h3>
@@ -111,7 +114,7 @@
   <!-- Contact -->
   <section id="contact" class="">
     <div class="mx-auto container px-4 py-16">
-      <h2 class="text-2xl font-bold">Contact</h2>
+      <h2 class="text-2xl font-bold over-bg">Contact</h2>
       <p class="mt-2 text-[var(--muted)]">Email is best. You can also book a short intro call.</p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
         <a href="mailto:hello@yourdomain.org" class="inline-flex items-center justify-center rounded-2xl px-5 py-3 bg-[var(--brand)] text-white font-medium shadow">Email</a>
